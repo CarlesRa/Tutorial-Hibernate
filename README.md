@@ -2,7 +2,7 @@
 ## Todos los fragmentos para copiar en POM.xml los podemos encontrar en [mvnrepository](https://mvnrepository.com/)
 ## Pasos a seguir
 ### 1º-Creamos un proyecto Maven en nuestro ide favorito.
-### 2º-Creamos la etiqueta build en el arxivo POM.xml y copiamos el código.
+### 2º-Creamos la etiqueta build en el archivo POM.xml y copiamos el código.
     Este fragmento de código sirve para pedirle a maven que use java 8 porque es compatible con Hibernate.
 ```xml
 <build>
