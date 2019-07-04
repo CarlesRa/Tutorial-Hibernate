@@ -38,7 +38,7 @@
       <version>1.0.2</version>
   </dependency>
 ```
-   3.3 instalamos hibernate-entitymanager que funcionara de interconecsión entre JPA y hibernate(SOLO SI DA PROBLEMAS) 
+   3.3 instalamos hibernate-entitymanager que funcionara de interconexión entre JPA y hibernate(SOLO SI DA PROBLEMAS) 
 ```xml
   <dependency>
       <groupId>org.hibernate</groupId>
