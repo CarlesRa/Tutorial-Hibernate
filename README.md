@@ -55,7 +55,7 @@
   </dependency>
 ```
 ### 4º Creamos el archivo de configuración de hibernate.
-   Hay que crear una carpeta en el directorio src/main/resources con el nombre "META-INF" y crear un archivo .xml con el siguiente código:
+   Hay que crear una carpeta en el directorio src/main/resources con el nombre "META-INF" y crear un archivo "persistence.xml" dentro de la carpeta "META_INF" con el siguiente código:
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
   <!-- La etiqueta <persistence> sirve para indicar que es un archivo de persistencia -->
@@ -80,7 +80,7 @@ estas clases son las que tendran las anotaciones JPA-->
         <property name="javax.persistence.jdbc.password" value="" />
         <!--El dialect sirve para que hibernate se "entienda" con la database y poder realizar operaciones en ella-->
         <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
-        <!--Con esta propiedad le decimos el comportamiento general con la base de datos, en el caso de poner "create", hibernate creara la base de datos en caso de que no exista o la actualizara-->
+        <!--Con esta propiedad le decimos el comportamiento general con la base de datos, en el caso de poner "create", hibernate creara la base de datos en caso de que no exista o la actualizara, tambien tenemos "validate", "update", "create-drop"-->
         <property name="hibernate.hbm2ddl.auto" value="create" />
     </properties>
  </persistence-unit>
