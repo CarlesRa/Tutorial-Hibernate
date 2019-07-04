@@ -46,7 +46,7 @@
       <version>5.4.3.Final</version>
   </dependency> 
 ```
-  3.4 importamos la base de datos que queremos utilizar, en este caso el driver JDBC(java database connect) para MySQL
+  3.4 importamos la base de datos que queremos utilizar, el driver JDBC(java database connect) en este caso para MySQL
 ```xml
   <dependency>
       <groupId>mysql</groupId>
